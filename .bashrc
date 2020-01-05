@@ -1,6 +1,5 @@
 # pip should only run if there is a virtualenv currently activated
 #export PIP_REQUIRE_VIRTUALENV=true
-export GPGKEY=A2A7D8BB
 
 # Source global definitions
 if [ -f /etc/bashrc ]; then
