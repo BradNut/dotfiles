@@ -14,13 +14,8 @@ plugins=(
   extract
   z
   zsh-autosuggestions
+  zsh-syntax-highlighting
 )
-
-source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-
-if type brew &>/dev/null; then
-  FPATH=$(brew --prefix)/share/zsh/site-functions:$FPATH
-fi
 
 source $ZSH/oh-my-zsh.sh
 
@@ -29,3 +24,10 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias vimconfig="vim ~/.vimrc"
 alias update="source ~/.zshrc"
+
+alias dcp='docker-compose -f /opt/docker-compose.yml '
+alias dcpull='docker-compose -f /opt/docker-compose.yml pull --parallel'
+alias dclogs='docker-compose -f /opt/docker-compose.yml logs -tf --tail="50" '
+alias dtail='docker logs -tf --tail="50" "$@"'
+
+alias status='git status'
