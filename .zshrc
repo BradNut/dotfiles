@@ -31,6 +31,8 @@ alias vimconfig="vim ~/.vimrc"
 alias update="source ~/.zshrc"
 
 # Git
+alias branch="git branch"
+alias gco="git checkout"
 alias status="git status"
 
 # Docker
@@ -38,3 +40,10 @@ alias dcp='docker-compose -f /opt/docker-compose.yml '
 alias dcpull='docker-compose -f /opt/docker-compose.yml pull --parallel'
 alias dclogs='docker-compose -f /opt/docker-compose.yml logs -tf --tail="50" '
 alias dtail='docker logs -tf --tail="50" "$@"'
+
+# SDK Man
+# OSX SDK Man
+# export SDKMAN_DIR=$HOME/.sdkman
+# [[ -s "/Users/{USER_NAME}/.sdkman/bin/sdkman-init.sh"]] && source "/Users/{USER_NAME}/.sdkman/bin/sdkman-init.sh"
+# export PATH="/usr/local/sbin:$PATH"
+# export PATH="/usr/local/bin:$PATH"
