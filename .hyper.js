@@ -28,7 +28,7 @@ module.exports = {
     shell: '/bin/zsh',
 
     // if `true` (without backticks and without quotes), selected text will automatically be copied to the clipboard
-    copyOnSelect: `true`,
+    copyOnSelect: true,
 
     // Whether to use the WebGL renderer. Set it to false to use canvas-based
     // rendering (slower, but supports transparent backgrounds)
