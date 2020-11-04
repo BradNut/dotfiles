@@ -25,6 +25,7 @@ fi
 source $ZSH/oh-my-zsh.sh
 
 # Useful aliases
+alias rm=trash
 alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias vimconfig="vim ~/.vimrc"
