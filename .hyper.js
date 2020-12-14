@@ -6,7 +6,7 @@ module.exports = {
   config: {
     // choose either `'stable'` for receiving highly polished,
     // or `'canary'` for less polished but more frequent updates
-    updateChannel: 'canary',
+    updateChannel: 'stable',
     
     // default font size in pixels for all tabs
     fontSize: 12,
@@ -40,6 +40,25 @@ module.exports = {
 
     // change the colour here
     wickedBorderColor: '#ffc600',
+    
+    hyperTabs: {
+        tabIconsColored: true,
+    },
+    
+    hypercwd: {
+      initialWorkingDirectory: '~/projects'
+    },
+    
+    hyperTabs: {
+      // The height(unit px) of zone over tabs to drag the window
+      navMoveable: 0,
+      // The hotkeys of move tabs
+      hotkeys: {
+        moveLeft: 'command+[',
+        moveRight: ['command+]', 'r i g h t']
+      }
+    },
+    
   },
 
   // a list of plugins to fetch and install from npm
@@ -51,7 +70,9 @@ module.exports = {
   plugins: [
     'hyperterm-cobalt2-theme',
     'hyper-statusline',
-    'hyper-tabs-enhanced'
+    'hyper-tabs-enhanced',
+    'hyper-reorderable-tabs',
+    'hypercwd',
   ],
 
   // in development, you can create a directory under
