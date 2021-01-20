@@ -15,6 +15,10 @@
 - [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle)
 - [Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
+## Icons
+
+- [VS code Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
+
 ## Linters
 
 - [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
