@@ -68,7 +68,7 @@ module.exports = {
   //   `@company/project`
   //   `project#1.0.1`
   plugins: [
-    'hyperterm-cobalt2-theme',
+    'hyperterm-synthwave84',
     'hyper-statusline',
     'hyper-tabs-enhanced',
     'hyper-reorderable-tabs',
