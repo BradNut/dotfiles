@@ -30,6 +30,7 @@ alias zshconfig="vim ~/.zshrc"
 alias ohmyzsh="vim ~/.oh-my-zsh"
 alias vimconfig="vim ~/.vimrc"
 alias update="source ~/.zshrc"
+alias code="codium"
 
 # Git
 alias branch="git branch"
