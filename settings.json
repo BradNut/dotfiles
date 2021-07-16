@@ -1,4 +1,5 @@
 {
+  "workbench.iconTheme": "vscode-icons",
   "telemetry.enableTelemetry": false,
   "editor.wordWrap": "off",
   "javascript.updateImportsOnFileMove.enabled": "always",
