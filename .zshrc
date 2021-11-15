@@ -11,7 +11,7 @@ plugins=(
   git
   node
   npm
-  osx
+  macos
   extract
   z
   zsh-autosuggestions
