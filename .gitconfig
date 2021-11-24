@@ -1,0 +1,10 @@
+[user]
+  name = 
+  email = 
+[core]
+  excludesfile = ~/.gitignore_global
+  editor = vim
+  autocrlf = input
+  eol = lf
+[push]
+  default = current
