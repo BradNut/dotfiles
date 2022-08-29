@@ -56,6 +56,7 @@
 
 ## Snippets
 
+- [Conventional Commits](https://open-vsx.org/extension/vivaxy/vscode-conventional-commits)
 - [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
 - [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
 - [Svelte 3 Snippets](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-svelte-snippets)

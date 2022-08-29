@@ -1,6 +1,4 @@
 {
-  "workbench.iconTheme": "vscode-icons",
-  "telemetry.enableTelemetry": false,
   "editor.wordWrap": "off",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.renderWhitespace": "all",
@@ -25,7 +23,7 @@
     "javascriptreact"
   ],
   "editor.tabSize": 2,
-  "workbench.colorTheme": "Cobalt2",
+  "workbench.colorTheme": "SynthWave '84",
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, Fira Code Retina",
   "editor.fontLigatures": true,
   "editor.fontSize": 13,
@@ -37,6 +35,18 @@
   "emmet.showSuggestionsAsSnippets": true,
   "editor.snippetSuggestions": "top",
   "emmet.triggerExpansionOnTab": true,
-  "editor.formatOnPaste": false,
-  "editor.formatOnType": false
+  "editor.formatOnPaste": true,
+  "editor.formatOnType": true,
+  "svelte.enable-ts-plugin": true,
+  "cSpell.userWords": [
+    "Shellnut",
+    "sveltejs",
+    "Umami",
+    "vite"
+  ],
+  "git.autofetch": true,
+  "git.mergeEditor": true,
+  "editor.experimental.stickyScroll.enabled": true,
+  "window.zoomLevel": -1,
+  "javascript.inlayHints.variableTypes.enabled": true
 }
