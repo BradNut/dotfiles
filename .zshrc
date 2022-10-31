@@ -75,3 +75,8 @@ load-nvmrc() {
 }
 add-zsh-hook chpwd load-nvmrc
 load-nvmrc
+# pnpm
+export PNPM_HOME="/home/bshellnu/.local/share/pnpm"
+export PATH="$PNPM_HOME:$PATH"
+# pnpm end
+eval "$(starship init zsh)"
