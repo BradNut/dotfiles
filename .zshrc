@@ -2,7 +2,7 @@
 export ZSH=$HOME/.oh-my-zsh
 export PATH=/usr/local/bin:$PATH
 
-ZSH_THEME="robbyrussell"
+#ZSH_THEME="robbyrussell"
 
 # red dots to be displayed while waiting for completion
 COMPLETION_WAITING_DOTS="true"
@@ -50,9 +50,8 @@ alias dtail='docker logs -tf --tail="50" "$@"'
 # export PATH="/usr/local/sbin:$PATH"
 # export PATH="/usr/local/bin:$PATH"
 
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}" ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
 
 # place this after nvm initialization!
 autoload -U add-zsh-hook

@@ -1,70 +1,23 @@
-# List of all the extensions I use.
+Here are a list of all the extensions I use. This is an ever-changing setup!
 
-## Auto Complete
-
-- [Auto Close Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-close-tag)
-- [Auto Rename Tag](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
-
-## Debuggers
-
-- [Debugger for Chrome](https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome)
-
-## Formatters
-
-- [Better Comments](https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments)
-- [Formatting Toggle](https://marketplace.visualstudio.com/items?itemName=tombonnike.vscode-status-bar-format-toggle)
-- [Prettier - Code Formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
-- [Wrap Console Log Simple](https://marketplace.visualstudio.com/items?itemName=WooodHead.vscode-wrap-console-log-simple)
-
-## Icons
-
-- [Material Icon Theme](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
-- [VS code Icons](https://marketplace.visualstudio.com/items?itemName=vscode-icons-team.vscode-icons)
-
-## Linters
-
-- [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-- [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
-
-## Other
-
-- [Bracket Pair Colorizer 2](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer-2)
-- [Color Highlight](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-- [Git History](https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory)
-- [Import Cost](https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost)
-- [Jest](https://marketplace.visualstudio.com/items?itemName=Orta.vscode-jest)
-- [npm Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
-- [open in browser](https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser)
-- [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-- [Rainbow Brackets](https://marketplace.visualstudio.com/items?itemName=2gua.rainbow-brackets)
-- [Scope Info](https://marketplace.visualstudio.com/items?itemName=siegebell.scope-info)
-- [Svelte Intellisense](https://marketplace.visualstudio.com/items?itemName=ardenivanov.svelte-intellisense)
-- [Todo Tree](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
-
-## Programming Languages
-
-- [Docker](https://marketplace.visualstudio.com/items?itemName=PeterJausovec.vscode-docker)
-- [DotENV](https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv)
-- [GraphQL](https://marketplace.visualstudio.com/items?itemName=Prisma.vscode-graphql)
-- [Prisma](https://marketplace.visualstudio.com/items?itemName=Prisma.prisma)
-- [Rainbow CSV](https://marketplace.visualstudio.com/items?itemName=mechatroner.rainbow-csv)
-- [SCSS IntelliSense](https://marketplace.visualstudio.com/items?itemName=mrmlnc.vscode-scss)
-- [Svelte for VS Code](https://marketplace.visualstudio.com/items?itemName=svelte.svelte-vscode)
-- [Svelte Intellisense](https://marketplace.visualstudio.com/items?itemName=ardenivanov.svelte-intellisense)
-- [vscode-styled-components](https://marketplace.visualstudio.com/items?itemName=jpoissonnier.vscode-styled-components)
-- [YAML](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)
-
-## Snippets
-
-- [Conventional Commits](https://open-vsx.org/extension/vivaxy/vscode-conventional-commits)
-- [ES7 React/Redux/GraphQL/React-Native snippets](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-- [GraphQL for VSCode](https://marketplace.visualstudio.com/items?itemName=kumar-harsh.graphql-for-vscode)
-- [Svelte 3 Snippets](https://marketplace.visualstudio.com/items?itemName=fivethree.vscode-svelte-snippets)
-
-## Themes
-
-- [Ayu](https://marketplace.visualstudio.com/items?itemName=teabyii.ayu)
-- [Cobalt2 Theme](https://marketplace.visualstudio.com/items?itemName=wesbos.theme-cobalt2)
-- [Custom CSS and JS Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
-- [Level Up Tutorials Theme Official](https://marketplace.visualstudio.com/items?itemName=leveluptutorials.theme-levelup)
-- [Synthwave '84](https://marketplace.visualstudio.com/items?itemName=RobbOwen.synthwave-vscode)
+| ××××××                                                                                                                                                                                                                                                                                                     |                                                                                                                                                                                                                                              |
+| ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag"><img width="100" src="https://open-vsx.org/vscode/asset/formulahendry/auto-rename-tag/0.1.10/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="Auto Rename Tag">                    | <h3><a href="https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag">Auto Rename Tag</a></h3>Auto rename paired HTML/XML tag                                                                                      |
+| <a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments"><img width="100" src="https://open-vsx.org/vscode/asset/aaron-bond/better-comments/3.0.2/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="Better Comments">                           | <h3><a href="https://marketplace.visualstudio.com/items?itemName=aaron-bond.better-comments">Better Comments</a></h3>Improve your code commenting by annotating with alert, informational, TODOs, and more!                                  |
+| <a href="https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer-2"><img width="100" src="https://open-vsx.org/vscode/asset/CoenraadS/bracket-pair-colorizer-2/0.1.4/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="Bracket Pair Colorizer 2">  | <h3><a href="https://marketplace.visualstudio.com/items?itemName=coenraads.bracket-pair-colorizer-2">Bracket Pair Colorizer 2</a></h3>A customizable extension for colorizing matching brackets                                              |
+| <a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker"><img width="100" src="https://open-vsx.org/vscode/asset/streetsidesoftware/code-spell-checker/2.12.0/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="Code Spell Checker"> | <h3><a href="https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker">Code Spell Checker</a></h3>Spelling checker for source code                                                                          |
+| <a href="https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize"><img width="100" src="https://open-vsx.org/vscode/asset/kamikillerto/vscode-colorize/0.11.1/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="colorize">                             | <h3><a href="https://marketplace.visualstudio.com/items?itemName=kamikillerto.vscode-colorize">colorize</a></h3>A vscode extension to help visualize css colors in files.                                                                    |
+| <a href="https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits"><img width="100" src="https://open-vsx.org/vscode/asset/vivaxy/vscode-conventional-commits/1.24.4/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="Conventional Commits">     | <h3><a href="https://marketplace.visualstudio.com/items?itemName=vivaxy.vscode-conventional-commits">Conventional Commits</a></h3>💬Conventional Commits for VSCode.                                                                         |
+| <a href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome"><img width="100" src="https://open-vsx.org/vscode/asset/msjsdiag/debugger-for-chrome/4.12.6/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="Debugger for Chrome">                  | <h3><a href="https://marketplace.visualstudio.com/items?itemName=msjsdiag.debugger-for-chrome">Debugger for Chrome</a></h3>Debug your JavaScript code in the Chrome browser, or any other target that supports the Chrome Debugger protocol. |
+| <a href="https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv"><img width="100" src="https://open-vsx.org/vscode/asset/mikestead/dotenv/1.0.1/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="DotENV">                                                        | <h3><a href="https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv">DotENV</a></h3>Support for dotenv file syntax                                                                                                             |
+| <a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint"><img width="100" src="https://open-vsx.org/vscode/asset/dbaeumer/vscode-eslint/2.2.6/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="ESLint">                                            | <h3><a href="https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint">ESLint</a></h3>Integrates ESLint JavaScript into VS Code.                                                                                           |
+| <a href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory"><img width="100" src="https://open-vsx.org/vscode/asset/donjayamanne/githistory/0.6.19/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="Git History">                                    | <h3><a href="https://marketplace.visualstudio.com/items?itemName=donjayamanne.githistory">Git History</a></h3>View git log, file history, compare branches or commits                                                                        |
+| <a href="https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost"><img width="100" src="https://open-vsx.org/vscode/asset/wix/vscode-import-cost/3.3.0/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="Import Cost">                                       | <h3><a href="https://marketplace.visualstudio.com/items?itemName=wix.vscode-import-cost">Import Cost</a></h3>Display import/require package size in the editor                                                                               |
+| <a href="https://marketplace.visualstudio.com/items?itemName=orta.vscode-jest"><img width="100" src="https://open-vsx.org/vscode/asset/Orta/vscode-jest/4.2.1/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="Jest">                                                          | <h3><a href="https://marketplace.visualstudio.com/items?itemName=orta.vscode-jest">Jest</a></h3>Use Facebook's Jest With Pleasure.                                                                                                           |
+| <a href="https://marketplace.visualstudio.com/items?itemName=leveluptutorials.theme-levelup"><img width="100" src="https://cdn.vsassets.io/v/M213_20221206.3/_content/Header/default_icon_128.png" alt="Level Up Theme Official">                                                                          | <h3><a href="https://marketplace.visualstudio.com/items?itemName=leveluptutorials.theme-levelup">Level Up Theme Official</a></h3>➕ Official theme of Level Up Tutorials ➕                                                                  |
+| <a href="https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme"><img width="100" src="https://open-vsx.org/vscode/asset/PKief/material-icon-theme/4.23.0/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="Material Icon Theme">                        | <h3><a href="https://marketplace.visualstudio.com/items?itemName=pkief.material-icon-theme">Material Icon Theme</a></h3>Material Design Icons for Visual Studio Code                                                                         |
+| <a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense"><img width="100" src="https://open-vsx.org/vscode/asset/christian-kohler/npm-intellisense/1.4.3/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="npm Intellisense">            | <h3><a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense">npm Intellisense</a></h3>Visual Studio Code plugin that autocompletes npm modules in import statements                                   |
+| <a href="https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser"><img width="100" src="https://open-vsx.org/vscode/asset/techer/open-in-browser/2.0.0/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="open in browser">                                   | <h3><a href="https://marketplace.visualstudio.com/items?itemName=techer.open-in-browser">open in browser</a></h3>This allows you to open the current file in your default browser or application.                                            |
+| <a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense"><img width="100" src="https://open-vsx.org/vscode/asset/christian-kohler/path-intellisense/2.8.0/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="Path Intellisense">         | <h3><a href="https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense">Path Intellisense</a></h3>Visual Studio Code plugin that autocompletes filenames                                                        |
+| <a href="https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-postcss"><img width="100" src="https://open-vsx.org/vscode/asset/vunguyentuan/vscode-postcss/2.0.2/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="PostCSS Intellisense and Highlighting">   | <h3><a href="https://marketplace.visualstudio.com/items?itemName=vunguyentuan.vscode-postcss">PostCSS Intellisense and Highlighting</a></h3>Syntax highlighting and intellisense for PostCSS                                                 |
+| <a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"><img width="100" src="https://open-vsx.org/vscode/asset/esbenp/prettier-vscode/9.10.3/Microsoft.VisualStudio.Services.Icons.Default?targetPlatform=universal" alt="Prettier - Code formatter">                        | <h3><a href="https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode">Prettier - Code formatter</a></h3>Code formatter using prettier                                                                                     |

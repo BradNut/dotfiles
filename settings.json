@@ -1,5 +1,5 @@
 {
-  "editor.wordWrap": "off",
+  "editor.wordWrap": "bounded",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "editor.renderWhitespace": "all",
   // These are all my auto-save configs
@@ -18,15 +18,11 @@
     "source.fixAll": true
   },
   // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
-  "prettier.disableLanguages": [
-    "javascript",
-    "javascriptreact"
-  ],
+  "prettier.disableLanguages": ["javascript", "javascriptreact"],
   "editor.tabSize": 2,
-  "workbench.colorTheme": "SynthWave '84",
   "editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, Fira Code Retina",
   "editor.fontLigatures": true,
-  "editor.fontSize": 13,
+  "editor.fontSize": 16,
   "editor.quickSuggestions": {
     "other": true,
     "comments": false,
@@ -38,15 +34,14 @@
   "editor.formatOnPaste": true,
   "editor.formatOnType": true,
   "svelte.enable-ts-plugin": true,
-  "cSpell.userWords": [
-    "Shellnut",
-    "sveltejs",
-    "Umami",
-    "vite"
-  ],
+  "cSpell.userWords": ["Shellnut", "sveltejs", "Umami", "vite"],
   "git.autofetch": true,
   "git.mergeEditor": true,
-  "editor.experimental.stickyScroll.enabled": true,
+  "javascript.inlayHints.variableTypes.enabled": true,
+  "editor.stickyScroll.enabled": true,
+  "workbench.colorTheme": "SynthWave '84",
+  "svelte.plugin.svelte.note-new-transformation": false,
+  "workbench.iconTheme": "material-icon-theme",
   "window.zoomLevel": -1,
-  "javascript.inlayHints.variableTypes.enabled": true
+  "prettier.useTabs": true
 }
