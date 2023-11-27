@@ -1,0 +1,62 @@
+{
+  "list": {
+    "prefix": "list",
+    "description": "Svelte List",
+    "body": [
+      "<ul>",
+      "\t{#each ${1:items} as ${2:item}}",
+      "\t\t<li>{$2}</li>",
+      "\t{/each}",
+      "</ul>"
+    ]
+  },
+  "sfc": {
+    "prefix": "sfc",
+    "description": "single file component",
+    "body": [
+      "<script lang=\"ts\">",
+      "\texport let ${1:data};",
+      "</script>",
+      "",
+      "$2",
+      "",
+      "<style>",
+      "\t$3",
+      "</style>"
+    ]
+  },
+  "pre": {
+    "prefix": "pre",
+    "description": "pre",
+    "body": [
+      "<pre>",
+      "\t{JSON.stringify(${1:data}, ${2:null}, ${3:2})}",
+      "</pre>"
+    ]
+  },
+  "log": {
+    "prefix": "c",
+    "description": "log value ",
+    "body": [
+      "console.log($0)"
+    ]
+  },
+  "script": {
+    "prefix": "script",
+    "description": "script tag",
+    "body": [
+      "<script lang=\"ts\">",
+      "\t${0}",
+      "</script>"
+    ]
+  },
+  "script module": {
+    "prefix": "script module",
+    "description": "script module",
+    "body": [
+      "<script context=\"module\" lang=\"ts\">",
+      "\t${0}",
+      "</script>"
+    ]
+  }
+}

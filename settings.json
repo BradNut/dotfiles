@@ -4,9 +4,10 @@
 	"editor.guides.bracketPairs": "active",
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"editor.renderWhitespace": "all",
-	// These are all my auto-save configs
-	"editor.formatOnSave": true,
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"html.format.enable": true,
+	"html.format.preserveNewLines": true,
+	"files.trimTrailingWhitespace": true,
 	// turn it off for JS and JSX, we will do this via eslint
 	"[javascript]": {
 		"editor.formatOnSave": false,
@@ -22,7 +23,7 @@
 		"source.fixAll": true
 	},
 	"editor.tabSize": 2,
-	"editor.fontFamily": "Menlo, Monaco, 'Courier New', monospace, Fira Code Retina",
+	"editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
 	"editor.fontLigatures": true,
 	"editor.fontSize": 16,
 	"editor.quickSuggestions": {
@@ -47,14 +48,13 @@
 	"editor.formatOnType": true,
 	"svelte.enable-ts-plugin": true,
 	"cSpell.diagnosticLevel": "Hint",
-	"cSpell.userWords": ["Shellnut", "sveltejs", "Umami", "vite"],
+	"cSpell.userWords": ["cachable", "Shellnut", "sveltejs", "Umami", "vite"],
 	"git.autofetch": true,
 	"git.mergeEditor": true,
 	"editor.stickyScroll.enabled": true,
 	"workbench.colorTheme": "SynthWave '84",
 	"svelte.plugin.svelte.note-new-transformation": false,
 	"workbench.iconTheme": "material-icon-theme",
-	"window.zoomLevel": -1,
 	"prettier.useTabs": true,
 	"javascript.inlayHints.parameterTypes.enabled": true,
 	"javascript.inlayHints.variableTypes.enabled": true,
@@ -69,8 +69,22 @@
 	"typescript.inlayHints.parameterTypes.enabled": true,
 	"javascript.inlayHints.enumMemberValues.enabled": true,
 	"editor.insertSpaces": false,
-	"workbench.editor.labelFormat": "short",
+	"workbench.editor.labelFormat": "medium",
 	"explorer.compactFolders": false,
 	"material-icon-theme.folders.color": "#43a047",
-	"workbench.tree.indent": 12
+	"workbench.tree.indent": 12,
+	"codeium.enableConfig": {
+		"*": true,
+		"svelte": true
+	},
+	"codeium.enableSearch": true,
+	"editor.fontVariations": false,
+	"window.zoomLevel": -2,
+	"editor.formatOnSave": true,
+	"editor.formatOnSaveMode": "file",
+	"eslint.codeActionsOnSave.rules": null,
+	"editor.inlayHints.enabled": "off",
+	"git.path": "/usr/bin/git",
+	"files.autoSave": "afterDelay",
+	"explorer.sortOrder": "filesFirst"
 }
