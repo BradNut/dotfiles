@@ -3,8 +3,8 @@
 	"editor.bracketPairColorization.enabled": true,
 	"editor.guides.bracketPairs": "active",
 	"javascript.updateImportsOnFileMove.enabled": "always",
-	"editor.renderWhitespace": "all",
-	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.renderWhitespace": "trailing",
+	"editor.defaultFormatter": "biomejs.biome",
 	"html.format.enable": true,
 	"html.format.preserveNewLines": true,
 	"files.trimTrailingWhitespace": true,
@@ -52,9 +52,9 @@
 	"git.autofetch": true,
 	"git.mergeEditor": true,
 	"editor.stickyScroll.enabled": true,
-	"workbench.colorTheme": "SynthWave '84",
+	"workbench.colorTheme": "GitHub Dark Default",
 	"svelte.plugin.svelte.note-new-transformation": false,
-	"workbench.iconTheme": "material-icon-theme",
+	"workbench.iconTheme": "vscode-icons",
 	"prettier.useTabs": true,
 	"javascript.inlayHints.parameterTypes.enabled": true,
 	"javascript.inlayHints.variableTypes.enabled": true,
@@ -75,16 +75,27 @@
 	"workbench.tree.indent": 12,
 	"codeium.enableConfig": {
 		"*": true,
-		"svelte": true
+		"svelte": true,
+		"properties": true,
+		"prisma": true
 	},
 	"codeium.enableSearch": true,
 	"editor.fontVariations": false,
-	"window.zoomLevel": -2,
 	"editor.formatOnSave": true,
 	"editor.formatOnSaveMode": "file",
 	"eslint.codeActionsOnSave.rules": null,
 	"editor.inlayHints.enabled": "off",
 	"git.path": "/usr/bin/git",
 	"files.autoSave": "afterDelay",
-	"explorer.sortOrder": "filesFirst"
+	"explorer.sortOrder": "filesFirst",
+	"editor.wordWrapColumn": 120,
+	"window.zoomLevel": -1,
+	"inlang.userId": "d1290686-ffb1-4f62-8430-7db5e6b4d392",
+	"[markdown]": {
+		"editor.defaultFormatter": "darkriszty.markdown-table-prettify"
+	},
+	"prisma.showPrismaDataPlatformNotification": false,
+	"[svelte]": {
+		"editor.defaultFormatter": "svelte.svelte-vscode"
+	}
 }
