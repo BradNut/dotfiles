@@ -16,11 +16,9 @@
 	"[javascriptreact]": {
 		"editor.formatOnSave": false
 	},
-	// show eslint icon at bottom toolbar
-	"eslint.alwaysShowStatus": true,
 	// tell the ESLint plugin to run on save
 	"editor.codeActionsOnSave": {
-		"source.fixAll": true
+		"source.fixAll": "explicit"
 	},
 	"editor.tabSize": 2,
 	"editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
@@ -53,9 +51,7 @@
 	"git.mergeEditor": true,
 	"editor.stickyScroll.enabled": true,
 	"workbench.colorTheme": "GitHub Dark Default",
-	"svelte.plugin.svelte.note-new-transformation": false,
 	"workbench.iconTheme": "vscode-icons",
-	"prettier.useTabs": true,
 	"javascript.inlayHints.parameterTypes.enabled": true,
 	"javascript.inlayHints.variableTypes.enabled": true,
 	"javascript.inlayHints.propertyDeclarationTypes.enabled": true,
@@ -67,35 +63,25 @@
 	"typescript.inlayHints.parameterNames.enabled": "all",
 	"javascript.inlayHints.parameterNames.enabled": "literals",
 	"typescript.inlayHints.parameterTypes.enabled": true,
-	"javascript.inlayHints.enumMemberValues.enabled": true,
 	"editor.insertSpaces": false,
 	"workbench.editor.labelFormat": "medium",
 	"explorer.compactFolders": false,
-	"material-icon-theme.folders.color": "#43a047",
 	"workbench.tree.indent": 12,
-	"codeium.enableConfig": {
-		"*": true,
-		"svelte": true,
-		"properties": true,
-		"prisma": true
-	},
-	"codeium.enableSearch": true,
 	"editor.fontVariations": false,
 	"editor.formatOnSave": true,
 	"editor.formatOnSaveMode": "file",
-	"eslint.codeActionsOnSave.rules": null,
 	"editor.inlayHints.enabled": "off",
 	"git.path": "/usr/bin/git",
 	"files.autoSave": "afterDelay",
 	"explorer.sortOrder": "filesFirst",
 	"editor.wordWrapColumn": 120,
 	"window.zoomLevel": -1,
-	"inlang.userId": "d1290686-ffb1-4f62-8430-7db5e6b4d392",
 	"[markdown]": {
 		"editor.defaultFormatter": "darkriszty.markdown-table-prettify"
 	},
-	"prisma.showPrismaDataPlatformNotification": false,
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
-	}
+	},
+	"javascript.preferences.quoteStyle": "single",
+	"typescript.preferences.quoteStyle": "single"
 }

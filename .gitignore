@@ -1,15 +1,41 @@
-.DS_Store
+test-results
 node_modules
-/build
+
+# IDE
+.idea
+.fleet
+
+# Output
+.output
+.vercel
+.netlify
+.wrangler
 /.svelte-kit
-/package
+/build
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Env
 .env
 .env.*
 !.env.example
-*.xdp*
+!.env.test
+
+# Vite
 vite.config.js.timestamp-*
 vite.config.ts.timestamp-*
 
-.fleet
-.idea
-.vercel
+# volume
+volume/**
+
+# Paraglide
+src/lib/paraglide
+
+# windsurf rules
+.windsurfrules
+
+# Playwright
+playwright-report
+playwright-report/*

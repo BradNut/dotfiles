@@ -1,4 +1,3 @@
-skip_global_compinit=1
 # Start configuration added by Zim install {{{
 #
 # User configuration sourced by interactive shells
@@ -131,8 +130,8 @@ unset key
 
 
 #THIS MUST BE AT THE END OF THE FILE FOR SDKMAN TO WORK!!!
-export SDKMAN_DIR="$HOME/.sdkman"
-[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
+#export SDKMAN_DIR="$HOME/.sdkman"
+#[[ -s "$HOME/.sdkman/bin/sdkman-init.sh" ]] && source "$HOME/.sdkman/bin/sdkman-init.sh"
 
 eval "$(starship init zsh)"
 export NVM_DIR="$HOME/.nvm"
