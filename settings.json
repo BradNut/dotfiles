@@ -1,24 +1,21 @@
 {
+	"sherlock.userId": "b662be7a-1179-4ae6-9a99-77cee996b3d6",
 	"editor.wordWrap": "bounded",
 	"editor.bracketPairColorization.enabled": true,
 	"editor.guides.bracketPairs": "active",
 	"javascript.updateImportsOnFileMove.enabled": "always",
 	"editor.renderWhitespace": "trailing",
-	"editor.defaultFormatter": "biomejs.biome",
+	"editor.defaultFormatter": "fronterior.biome-monorepo",
 	"html.format.enable": true,
 	"html.format.preserveNewLines": true,
 	"files.trimTrailingWhitespace": true,
 	// turn it off for JS and JSX, we will do this via eslint
 	"[javascript]": {
 		"editor.formatOnSave": false,
-		"editor.defaultFormatter": "esbenp.prettier-vscode"
+		"editor.defaultFormatter": "fronterior.biome-monorepo"
 	},
 	"[javascriptreact]": {
 		"editor.formatOnSave": false
-	},
-	// tell the ESLint plugin to run on save
-	"editor.codeActionsOnSave": {
-		"source.fixAll": "explicit"
 	},
 	"editor.tabSize": 2,
 	"editor.fontFamily": "JetBrains Mono, Menlo, Monaco, 'Courier New', monospace",
@@ -50,8 +47,8 @@
 	"git.autofetch": true,
 	"git.mergeEditor": true,
 	"editor.stickyScroll.enabled": true,
-	"workbench.colorTheme": "GitHub Dark Default",
-	"workbench.iconTheme": "vscode-icons",
+	"workbench.colorTheme": "Tokyo Night",
+	"workbench.iconTheme": "material-icon-theme",
 	"javascript.inlayHints.parameterTypes.enabled": true,
 	"javascript.inlayHints.variableTypes.enabled": true,
 	"javascript.inlayHints.propertyDeclarationTypes.enabled": true,
@@ -66,22 +63,18 @@
 	"editor.insertSpaces": false,
 	"workbench.editor.labelFormat": "medium",
 	"explorer.compactFolders": false,
+	"material-icon-theme.folders.color": "#43a047",
 	"workbench.tree.indent": 12,
 	"editor.fontVariations": false,
 	"editor.formatOnSave": true,
 	"editor.formatOnSaveMode": "file",
 	"editor.inlayHints.enabled": "off",
 	"git.path": "/usr/bin/git",
-	"files.autoSave": "afterDelay",
+	"files.autoSave": "onFocusChange",
 	"explorer.sortOrder": "filesFirst",
 	"editor.wordWrapColumn": 120,
 	"window.zoomLevel": -1,
-	"[markdown]": {
-		"editor.defaultFormatter": "darkriszty.markdown-table-prettify"
-	},
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
-	},
-	"javascript.preferences.quoteStyle": "single",
-	"typescript.preferences.quoteStyle": "single"
+	}
 }
