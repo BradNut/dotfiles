@@ -1,5 +1,4 @@
 {
-	"sherlock.userId": "b662be7a-1179-4ae6-9a99-77cee996b3d6",
 	"editor.wordWrap": "bounded",
 	"editor.bracketPairColorization.enabled": true,
 	"editor.guides.bracketPairs": "active",
@@ -66,15 +65,15 @@
 	"material-icon-theme.folders.color": "#43a047",
 	"workbench.tree.indent": 12,
 	"editor.fontVariations": false,
-	"editor.formatOnSave": true,
 	"editor.formatOnSaveMode": "file",
 	"editor.inlayHints.enabled": "off",
 	"git.path": "/usr/bin/git",
-	"files.autoSave": "onFocusChange",
+	"files.autoSave": "afterDelay",
 	"explorer.sortOrder": "filesFirst",
 	"editor.wordWrapColumn": 120,
 	"window.zoomLevel": -1,
 	"[svelte]": {
 		"editor.defaultFormatter": "svelte.svelte-vscode"
-	}
+	},
+	"editor.formatOnSave": true
 }
